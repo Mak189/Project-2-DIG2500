@@ -1,0 +1,102 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainheader {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    box-shadow: 0 2px 5px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    background-image: url('images/headerpic.jpg');
+}
+
+.menubar {
+    display: flex;
+    box-shadow: 0 2px 5px;
+    justify-content: center;
+    padding: 15px;
+    gap: 1.5rem;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-size: 40px;
+    box-shadow: 0 2px 5px;
+    flex-direction: column;
+}
+
+.projectimage {
+    width: 600px;
+    height: auto;
+}
+.projectbox {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0 2px 5px;
+    max-width: 1000px;
+}
+
+.projectbox:hover .projectimage {
+    opacity: 0.6;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 1px 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.about_section {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.contact_section {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.project1_text {
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.project2_text {
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+}
