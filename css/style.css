@@ -1,9 +1,20 @@
+:root{
+    --base-color: white;
+    --text-color: black;
+}
+
+body.darkmode{
+    --base-color: black;
+    --text-color: white;
+}
+
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .mainheader {
     display: flex;
+    --text-color:var(--text-color);
     justify-content: center;
     padding: 60px;
     box-shadow: 0 2px 5px;
@@ -13,6 +24,19 @@ body {
 }
 
 .menubar {
+    background-color: var(--base-color);
+    display: flex;
+    box-shadow: 0 2px 5px;
+    justify-content: center;
+    padding: 15px;
+    gap: 1.5rem;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.darkmodebutton{
+    background-color: var(--base-color);
+    color: --text-color;
     display: flex;
     box-shadow: 0 2px 5px;
     justify-content: center;
@@ -23,7 +47,7 @@ body {
 }
 
 a:visited {
-    color: black;
+    color: var(--text-color);
 }
 
 a:hover {
@@ -31,6 +55,8 @@ a:hover {
 }
 
 .projects {
+    background-color: var(--base-color);
+    color: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +84,8 @@ a:hover {
 
 .about {
     display: flex;
+    background-color: var(--base-color);
+    color: var(--text-color);
     justify-content: center;
     align-items: center;
     padding: 30px;
@@ -95,6 +123,8 @@ a:hover {
 }
 
 footer {
+    background-color: var(--base-color);
+    color: var(--text-color);
     display: flex;
     text-align: left;
     font-size: 30px;
